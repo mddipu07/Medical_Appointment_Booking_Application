@@ -24,6 +24,7 @@ import ErrorLayout from "../Main/ErrorLayout";
         },
         {
             path:'/blogs',
+            loader: () => fetch('../questionData.json'),
             element:<Blogs></Blogs>
         },
         {

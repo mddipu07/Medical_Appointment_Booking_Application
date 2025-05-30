@@ -1,0 +1,32 @@
+ [
+    {
+      "id": 1,
+      "title": "What is useState and how does it work in React?",
+      "date": "2025-05-30",
+      "content": "useState is a Hook in React that allows you to add state to functional components. When you call useState, it returns a stateful value and a function to update it. Each time the setter function is called, React re-renders the component with the updated state. Example: const [count, setCount] = useState(0);"
+    },
+    {
+      "id": 2,
+      "title": "What is the purpose of useEffect in React?",
+      "date": "2025-05-30",
+      "content": "useEffect is a Hook used to perform side effects in function components, such as fetching data, directly updating the DOM, or setting up subscriptions. It runs after the component renders. You can control when it runs by passing a dependency array. If the array is empty, it runs once after the first render (similar to componentDidMount)."
+    },
+    {
+      "id": 3,
+      "title": "What is a custom hook in React and when should you use one?",
+      "date": "2025-05-30",
+      "content": "A custom hook is a reusable function that starts with 'use' and lets you extract logic using React hooks. You should use one when you want to share logic between multiple components without duplicating code. Custom hooks help keep your components clean and logic abstracted."
+    },
+    {
+      "id": 4,
+      "title": "Difference between controlled and uncontrolled components? Which one is better?",
+      "date": "2025-05-30",
+      "content": "Controlled components have their form data managed by React state, whereas uncontrolled components store data in the DOM and use refs to access it. Controlled components offer better control and validation but require more code. Controlled components are generally preferred for consistency and easier debugging."
+    },
+    {
+      "id": 5,
+      "title": "Tell us something about useFormStatus() (explore and explain)",
+      "date": "2025-05-30",
+      "content": "useFormStatus is a React Hook used within Server Actions or with forms in frameworks like Next.js App Router. It helps you track the status of a form submission, including whether the form is currently submitting or if it has succeeded or failed. This is useful for disabling buttons during submission or showing status messages. It provides a seamless way to enhance user experience in modern React apps."
+    }
+  ]

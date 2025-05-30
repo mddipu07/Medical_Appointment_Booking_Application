@@ -3,6 +3,7 @@ import Banner from '../Components/Banner/Banner';
 import { useLoaderData } from 'react-router';
 import DoctorsContainer from '../Components/DoctorsContainer/DoctorsContainer';
 import Counter from '../Components/Counter/Counter';
+import Blogs from './Blogs';
 
 const Home = () => {
     const Doctors = useLoaderData()
